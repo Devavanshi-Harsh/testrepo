@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/Images/Front.jpg');
+    background-size: 100%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+#left{
+    display: inline;
+    position: absolute;
+    left: 65px;
+    top: 38px;
+     
+}
+#left h1{
+    font-size: 15px;
+}
+
+#mid{
+    display: block;
+
+    width: 37%;
+    margin: auto;
+    margin-top: 25px;
+   
+}
+
+#right{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    
+}
+#logo{
+    filter: invert();
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+#logo:hover{
+    filter: inherit;
+    color: white;
+}
+#container{
+
+    display: block;
+    width: 28%;
+    margin: 214px;
+    padding: 44px;
+}
+.nav-items{
+    display: inline;
+    padding: 11px;
+    margin: 12px;
+    font-size: 21px;
+    font-style: bold;  
+
+}
+.nav-items a{
+    color: white;
+    text-decoration: none;
+}
+.nav-items a:hover{
+    color: grey;
+}
+.form-items input{
+    margin: 7px;
+    padding: 9px;
+    width: 330px;
+    border-radius: 11px;
+    font-size: 14px;
+}
+.form-items input:focus{
+    background-color: rgb(200, 200, 200);
+    
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 11px;
+    border-color: grey;
+    background-color: black;
+    color: white;
+}
+.button:hover{
+    background-color: grey;
+}
+#submit{
+    
+    padding: 9px;
+    width: 342px;
+    border-radius: 11px;
+    font-size: 19px;
+
+}
+.gender-radio{
+    font-size: 14px;
+    margin-left: 10px;
+    color: white ;
+}
