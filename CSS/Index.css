@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: url('/Images/Front.jpg');
+    background: url('./Images/Front.jpg');
     background-size: 100%;
     color: white;
     font-family: 'Libre Baskerville', serif;
